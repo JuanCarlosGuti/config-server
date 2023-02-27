@@ -5,7 +5,7 @@ spring:
   application:
     name: ms-discovery
 eureka:
-  intance:
+  instance:
     hostname: localhost
   client:
     registerWithEureka: false
