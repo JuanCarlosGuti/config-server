@@ -7,7 +7,10 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/baseback
     username: root
-    password: group5-pwd
+    password: Wire2681
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
