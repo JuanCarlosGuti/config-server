@@ -13,11 +13,11 @@ spring:
         - id: msscustomer
           uri: lb://api-customer
           predicates:
-            -Path=/customers/**
+            - Path=/customers/**
         - id: msswallet
           uri: lb://api-wallet
           predicates:
-            -Path=/wallet/**
+            - Path=/wallet/**
 
 info:
   app:
