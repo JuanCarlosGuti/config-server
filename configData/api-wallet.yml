@@ -5,14 +5,15 @@ spring:
     name: api-wallet
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/baseback
+    url: jdbc:mysql://localhost:3306/back?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
+
     username: root
     password: Wire2681
     driver-class-name: com.mysql.cj.jdbc.Driver
     hibernate:
       dialect: org.hibernate.dialect.MySQL8Dialect
   jpa:
-    hibernate.ddl-auto: create-update
+    hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
 
