@@ -22,13 +22,6 @@ spring:
 info:
   app:
     name: ${spring.application.name}
-
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: true
-    serviceURL:
-      defaultZone: http://localhost:8761/eureka
 management:
   endpoint:
     gateway:
